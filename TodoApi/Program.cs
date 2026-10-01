@@ -98,6 +98,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapFallbackToFile("index.html");
+
 // Автоматическое создание базы данных
 using (var scope = app.Services.CreateScope())
 {
