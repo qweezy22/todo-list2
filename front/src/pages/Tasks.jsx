@@ -168,6 +168,16 @@ function Tasks() {
         <div className="brand">TODO</div>
 
         <div className="topbar-actions">
+
+          <a
+            className="github-link"
+            href="https://github.com/qweezy22/todo-list2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        
           <button
             className="icon-button"
             onClick={handleThemeToggle}
@@ -175,10 +185,11 @@ function Tasks() {
           >
             {darkMode ? "☀" : "☾"}
           </button>
-
+        
           <button className="logout-button" onClick={handleLogout}>
             ↪ Выйти
           </button>
+        
         </div>
       </header>
 
