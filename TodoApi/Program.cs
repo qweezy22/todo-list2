@@ -90,7 +90,7 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 
 app.UseCors("AllowAll");
 
-app.UseAuthentication();аа
+app.UseAuthentication();
 
 app.UseAuthorization();
 
