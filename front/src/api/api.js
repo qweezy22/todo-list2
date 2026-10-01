@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5177";
+const API_URL = "";
 
 function withAuthorization(options = {}) {
   const token = localStorage.getItem("token");
